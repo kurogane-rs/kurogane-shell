@@ -1,0 +1,9 @@
+[package]
+name = "{{crate_name}}"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+kurogane = { git = "https://github.com/0x48piraj/kurogane" }
+
+[workspace]

@@ -1,0 +1,12 @@
+[template]
+description = "Rust shell for embedding Kurogane into an existing frontend project"
+
+[placeholders.frontend]
+type = "string"
+prompt = "Frontend assets directory"
+default = "dist"
+
+[placeholders.dev_url]
+type = "string"
+prompt = "Dev server URL"
+default = ""

@@ -1,0 +1,4 @@
+[app]
+name = "{{project-name}}"
+frontend = "{{frontend}}"
+dev_url = "{{dev_url}}"
