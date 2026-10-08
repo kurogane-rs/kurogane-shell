@@ -6,4 +6,7 @@ edition = "2024"
 [dependencies]
 kurogane = { git = "https://github.com/0x48piraj/kurogane" }
 
+[build-dependencies]
+kurogane-build = { git = "https://github.com/0x48piraj/kurogane" }
+
 [workspace]

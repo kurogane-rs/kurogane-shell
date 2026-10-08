@@ -3,5 +3,9 @@
 use kurogane::App;
 
 fn main() {
-    App::new("{{frontend}}").run_or_exit();
+    #[cfg(debug_assertions)]
+    {% if dev_url == "" %}App::new("{{frontend_dist}}").run_or_exit();{% else %}App::url("{{dev_url}}").run_or_exit();{% endif %}
+
+    #[cfg(not(debug_assertions))]
+    App::new("content").run_or_exit();
 }

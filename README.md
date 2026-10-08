@@ -8,10 +8,10 @@ use templates via `kurogane new`.
 
 ## Placeholders
 
-| Placeholder | Meaning                              | Default |
-|-------------|--------------------------------------|---------|
-| `frontend`  | Frontend assets directory            | `dist`  |
-| `dev_url`   | Dev server URL used by `kurogane dev`| *(empty)* |
+| Placeholder     | Meaning                                         | Default   |
+|-----------------|-------------------------------------------------|-----------|
+| `frontend_dist` | Frontend build output directory                 | `dist`    |
+| `dev_url`       | Dev server URL for debug builds; empty loads the build output | *(empty)* |
 
 ## Usage
 
