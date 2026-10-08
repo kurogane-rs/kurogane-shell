@@ -1,4 +1,3 @@
 [app]
 name = "{{project-name}}"
-frontend = "{{frontend}}"
-dev_url = "{{dev_url}}"
+frontend-dist = "{{frontend_dist}}"
